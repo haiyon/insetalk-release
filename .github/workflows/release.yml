@@ -60,7 +60,7 @@ jobs:
       - name: test
         run: pnpm --filter @insetalk/application test
 
-      - uses: tauri-apps/tauri-action@v0.5.18
+      - uses: tauri-apps/tauri-action@v0.5.20
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           APPLE_CERTIFICATE: ${{secrets.APPLE_CERTIFICATE}}
