@@ -74,8 +74,6 @@ jobs:
           SENTRY_ORG: ${{ secrets.SENTRY_ORG }}
           SENTRY_PROJECT: ${{ secrets.SENTRY_PROJECT }}
           IS_INTEL_MAC: ${{ contains(matrix.args, 'x86_64') }}
-          MY_NAME: ${{ secrets.MY_NAME }}
-          REDACT_2: ${{ secrets.REDACT_2 }}
           CI: false
           NODE_OPTIONS: "--max_old_space_size=4096"
         with:
