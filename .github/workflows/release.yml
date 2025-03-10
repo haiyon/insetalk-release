@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       sha:
-        description: 'Commit SHA to build'
+        description: "Commit SHA to build"
         required: true
 
 jobs:
