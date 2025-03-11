@@ -18,7 +18,7 @@ Insetalk is a cross-platform desktop application designed to bring together mult
 
 ## Releases
 
-This repository contains official releases of Insetalk. Check the [Releases](https://github.com/haiyon/insetalk-releases/releases) page to download the latest version for your platform.
+This repository contains official releases of Insetalk. Check the [Releases](https://github.com/haiyon/insetalk-release/releases) page to download the latest version for your platform.
 
 ## Getting Started
 

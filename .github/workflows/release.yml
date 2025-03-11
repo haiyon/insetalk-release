@@ -89,6 +89,6 @@ jobs:
           releaseDraft: true
           prerelease: false
           args: ${{ matrix.args }}
-          repo: insetalk-releases
+          repo: insetalk-release
           owner: haiyon
           releaseCommitish: main
