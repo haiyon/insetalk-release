@@ -85,7 +85,14 @@ jobs:
           projectPath: ./application
           tagName: v__VERSION__
           releaseName: "v__VERSION__"
-          releaseBody: "See the assets to download this version and install, or visit https://insetalk.com for more details."
+          releaseBody: |
+            **Note**: Unsigned app signature
+
+            #### Signature Fix:
+            - **macOS**: Run `xattr -c /Applications/Insetalk.app` in Terminal (replace with actual path to the app)
+            - **Windows**: Right-click the app > Properties > Check "Unblock" box > Apply
+
+            See the assets to download this version and install, or visit https://insetalk.com for more details.
           releaseDraft: true
           prerelease: false
           args: ${{ matrix.args }}
